@@ -22,11 +22,11 @@
 
 ```graphql
 {
-	getBooks {
-		id
-		author
-		title
-	}
+  getBooks {
+    id
+    author
+    title
+  }
 }
 ```
 
@@ -34,11 +34,11 @@
 
 ```graphql
 {
-	getBook(id: 0) {
-		id
-		author
-		title
-	}
+  getBook(id: 0) {
+    id
+    author
+    title
+  }
 }
 ```
 
@@ -46,10 +46,10 @@
 
 ```graphql
 mutation {
-	addBook(title: "Clean Code", author: "Martin Fowler") {
-		title
-		author
-	}
+  addBook(title: "Clean Code", author: "Martin Fowler") {
+    title
+    author
+  }
 }
 ```
 
@@ -57,11 +57,11 @@ mutation {
 
 ```graphql
 mutation {
-	updateBook(id: 1, title: "Clean Code", author: "Martin Fowler") {
-		id
-		title
-		author
-	}
+  updateBook(id: 1, title: "Clean Code", author: "Martin Fowler") {
+    id
+    title
+    author
+  }
 }
 ```
 
@@ -69,10 +69,10 @@ mutation {
 
 ```graphql
 mutation {
-	removeBook(id: 0) {
-		id
-		title
-		author
-	}
+  removeBook(id: 0) {
+    id
+    title
+    author
+  }
 }
 ```
